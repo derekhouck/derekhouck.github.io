@@ -256,7 +256,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html-proofer
-  jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
 
