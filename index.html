@@ -5,12 +5,14 @@ title: Derek Houck
   <ul class="headlines">
     {% for testimonial in site.data.testimonials limit: 3 %}
     <li>
-      <p class="headline">
-        {{ testimonial.quote}}
-      </p>
-      <p>
-        {{ testimonial.name }} - {{ testimonial.org }}
-      </p>
+      <a href="testimonials.html#{{testimonial.slug}}">
+        <span class="headline">
+          {{ testimonial.quote}}
+        </span>
+        <span class="subhead">
+          {{ testimonial.name }} - {{ testimonial.org }}
+        </span>
+      </a>
     </li>
     {% endfor %}
   </ul>

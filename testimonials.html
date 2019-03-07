@@ -5,7 +5,7 @@ title: Testimonials
 
 <ul class="">
   {% for testimonial in site.data.testimonials %}
-  <li>
+  <li id={{ testimonial.slug }}>
     <p class="">
       {{ testimonial.quote}}
     </p>
