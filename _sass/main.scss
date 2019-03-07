@@ -1,11 +1,23 @@
 body {
-  background: url(/assets/images/paint-splatter.png);
   font-family: 'Berthold Akzidenz-Grotesk', Helvetica, Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
 }
 
 .site-content {
   background: white;
   margin: 1rem;
+}
+
+.current {
+  color: green;
+}
+
+// Site header
+.site-branding {
+  padding: 1rem;
 }
 
 .site-header {
@@ -15,29 +27,27 @@ body {
   grid-template-areas: 
     "nav"
     "logo";
+  text-align: center;
   text-transform: uppercase;
   a {
     text-decoration: none;
   }
   img {
-    display: block;
-    margin: 1em auto;
     min-width: 50vw;
   }
 }
 
 .site-nav {
-  background: #dc1d07;
+  background: $red;
   color: white;
   grid-area: nav;
-  text-align: right;
   padding: 1rem;
   a {
     color: white;
   }
   li {
     display: inline-block;
-    margin-left: 1em;
+    margin: 0 0.5em;
   }
   ul {
     list-style-type: disc;
@@ -46,6 +56,55 @@ body {
   }
 }
 
-.current {
-  color: green;
+.site-subtitle {
+  margin: 0;
+}
+
+@media all and (min-width: $breakpoint-medium) {
+  .site-branding {
+    text-align: left;
+  }
+
+  .site-nav {
+    text-align: right;
+  }
+}
+
+// Homepage
+.headlines {
+  font-size: 1.5em;
+  font-style: italic;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  li {
+    margin-bottom: 2rem;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+.headline {
+  color: $blue;
+  font-size: 2em;
+}
+
+@media all and (min-width: $breakpoint-medium) {
+  .cover {
+    background: url('/assets/images/devices.jpg') no-repeat 100% 50%;
+    background-size: 50vw auto;
+  }
+  .headlines {
+    max-width: 50vw;
+    text-align: left;
+  }
+}
+
+@media all and (min-width: $breakpoint-large) {
+  .cover {
+    background-size: contain;
+  }
 }

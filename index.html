@@ -1,4 +1,17 @@
 ---
 title: Derek Houck
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+<section class="cover">
+  <ul class="headlines">
+    {% for testimonial in site.data.testimonials limit: 3 %}
+    <li>
+      <p class="headline">
+        {{ testimonial.quote}}
+      </p>
+      <p>
+        {{ testimonial.name }} - {{ testimonial.org }}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
