@@ -1,0 +1,17 @@
+---
+title: Testimonials
+---
+<h1>Testimonials</h1>
+
+<ul class="">
+  {% for testimonial in site.data.testimonials %}
+  <li>
+    <p class="">
+      {{ testimonial.quote}}
+    </p>
+    <p>
+      {{ testimonial.name }} - {{ testimonial.org }}
+    </p>
+  </li>
+  {% endfor %}
+</ul>
