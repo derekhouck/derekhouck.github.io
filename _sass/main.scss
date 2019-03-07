@@ -8,7 +8,11 @@ img {
 
 .site-content {
   background: white;
-  margin: 1rem;
+  padding: 3rem 1rem 1rem;
+  section {
+    box-sizing: border-box;
+    padding: 1rem;
+  }
 }
 
 .current {
@@ -27,13 +31,14 @@ img {
   grid-template-areas: 
     "nav"
     "logo";
+  left: 0;
+  position: fixed;
   text-align: center;
   text-transform: uppercase;
+  top: 0;
+  width: 100vw;
   a {
     text-decoration: none;
-  }
-  img {
-    min-width: 50vw;
   }
 }
 
@@ -41,7 +46,7 @@ img {
   background: $red;
   color: white;
   grid-area: nav;
-  padding: 1rem 0.5rem;
+  padding: 0.5rem;
   a {
     color: white;
   }
@@ -70,20 +75,37 @@ img {
   }
 }
 
+// Site logo
+.site-logo {
+  min-width: 50vw;
+}
+
 // Homepage
-.headlines {
+.home.site-content {
+  padding: 0;
+}
+.site-content .cover {
   font-size: 1.5em;
   font-style: italic;
+  height: 100vh;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.home-branding {
+  margin-bottom: 2rem;
+}
+
+.headlines {
   list-style: none;
   margin: 0;
   padding: 0;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-  text-align: center;
   a {
     text-decoration: none;
   }
   li {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   p {
     margin: 0;
@@ -101,18 +123,20 @@ img {
 }
 
 @media all and (min-width: $breakpoint-medium) {
-  .cover {
+  .site-content .cover {
     background: url('/assets/images/devices.jpg') no-repeat 100% 50%;
     background-size: 50vw auto;
+    text-align: left;
   }
   .headlines {
     max-width: 50vw;
-    text-align: left;
+    li {
+      margin-bottom: 2rem;
+    }
   }
 }
 
 @media all and (min-width: $breakpoint-large) {
   .cover {
-    background-size: contain;
   }
 }

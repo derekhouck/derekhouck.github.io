@@ -1,12 +1,9 @@
 {% include head.html %}
 
 <header class="site-header">
-  <div class="site-branding">
-    <img class="site-logo" src="/assets/images/logo.svg" alt="Derek Houck">
-  </div>
   {% include navigation.html %}
 </header>
-<main class="site-content">
+<main class="home site-content">
   {{ content }}
 </main>
 {% if jekyll.environment == 'production' %}
