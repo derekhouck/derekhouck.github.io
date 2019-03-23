@@ -1,5 +1,16 @@
 body {
   font-family: 'Berthold Akzidenz-Grotesk', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body.navy {
+  background: $navy;
+  color: white;
+}
+
+h1 {
+  text-align: center;
 }
 
 img {
@@ -7,7 +18,6 @@ img {
 }
 
 .site-content {
-  background: white;
   padding: 6rem 1rem 1rem;
   section {
     box-sizing: border-box;
@@ -21,7 +31,6 @@ img {
 
 // Site header
 .site-branding {
-  background-color: white;
   line-height: 1;
   padding: 0.5rem;
 }

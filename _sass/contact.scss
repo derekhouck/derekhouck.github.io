@@ -1,0 +1,59 @@
+.social-links {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-links a {
+  color: white;
+  display: block;
+  fill: white;
+  height: 96px; // IE8
+  height: 9.6rem;
+  width: 96px; // IE8
+  width: 9.6rem;
+  &:hover {
+    border-radius: 100%;
+    color: $navy;
+    fill: $navy;
+    transform: scale(1.25);
+    transition: background-color .5s, transform .5s ease-out;
+  }
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links .email {
+  color: #DB4437;
+  fill: #DB4437;
+  &:hover {
+    background-color: #DB4437;
+  }
+}
+
+.social-links .github {
+  color: #fafafa;
+  fill: #fafafa;
+  &:hover {
+    background-color: #fafafa;
+  }
+}
+
+.social-links .linkedin {
+  color: #0077B5;
+  fill: #0077B5;
+  &:hover {
+    background-color: #0077b5;
+  }
+}
+
+.social-links .twitter {
+  color: #38A1F3;
+  fill: #38A1F3;
+  &:hover {
+    background-color: #38A1F3;
+  }
+}

@@ -6,7 +6,7 @@
   </div>
   {% include navigation.html %}
 </header>
-<main class="site-content">
+<main class="site-content {{ page.background }}">
   {{ content }}
 </main>
 {% if jekyll.environment == 'production' %}
