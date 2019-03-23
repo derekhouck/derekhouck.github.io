@@ -1,5 +1,5 @@
 title: derekhouck.github.io
-permalink: /:title
+permalink: /:year/:month/:day/:title
 
 collections:
   authors:
