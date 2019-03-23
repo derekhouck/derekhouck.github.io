@@ -8,7 +8,7 @@ img {
 
 .site-content {
   background: white;
-  padding: 3rem 1rem 1rem;
+  padding: 6rem 1rem 1rem;
   section {
     box-sizing: border-box;
     padding: 1rem;
@@ -21,7 +21,9 @@ img {
 
 // Site header
 .site-branding {
-  padding: 1rem;
+  background-color: white;
+  line-height: 1;
+  padding: 0.5rem;
 }
 
 .site-header {
@@ -29,8 +31,8 @@ img {
   font-size: 1.5em;
   font-style: italic;
   grid-template-areas: 
-    "nav"
-    "logo";
+    "logo"
+    "nav";
   left: 0;
   position: fixed;
   text-align: center;
@@ -40,6 +42,12 @@ img {
   a {
     text-decoration: none;
   }
+}
+
+.site-logo {
+  display: block;
+  margin: 0 auto;
+  width: 50vw;
 }
 
 .site-nav {
@@ -70,20 +78,35 @@ img {
     text-align: left;
   }
 
+  .site-header {
+    align-items: center;
+    grid-template-areas:
+      "logo nav";
+  }
+
   .site-nav {
     text-align: right;
   }
 }
 
-// Site logo
-.site-logo {
-  min-width: 50vw;
+@media all and (min-width: $breakpoint-large) {
+  .site-header {
+    grid-template-columns: 25vw 1fr;
+  }
 }
 
 // Homepage
 .home.site-content {
   padding: 0;
 }
+
+.home .site-logo {
+  display: inline-block;
+  margin: 0;
+  min-width: 50vw;
+  width: auto;
+}
+
 .site-content .cover {
   font-size: 1.5em;
   font-style: italic;
@@ -128,6 +151,11 @@ img {
     background-size: 50vw auto;
     text-align: left;
   }
+
+  .site-header-home {
+    display: block;
+  }
+
   .headlines {
     max-width: 50vw;
     li {
