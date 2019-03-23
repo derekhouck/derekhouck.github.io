@@ -78,6 +78,14 @@ img {
   }
 }
 
+body.navy .site-nav {
+  background: $yellow;
+  color: black;
+  a {
+    color: black;
+  }
+}
+
 .site-subtitle {
   margin: 0;
 }
