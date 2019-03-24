@@ -1,4 +1,5 @@
 ---
+background: purple
 title: About
 ---
 # About Me
