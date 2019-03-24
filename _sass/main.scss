@@ -18,15 +18,15 @@ body.navy, body.purple {
   color: white;
 }
 
-body.navy, body.navy .site-branding {
+body.navy, body.navy .site-header {
   background: $navy;
 }
 
-body.purple, body.purple .site-branding {
+body.purple, body.purple .site-header {
   background: $purple;
 }
 
-body.yellow, body.yellow .site-branding {
+body.yellow, body.yellow .site-header {
   background: $yellow-lighter;
 }
 
@@ -74,12 +74,12 @@ img {
 
 // Site header
 .site-branding {
-  background: white;
   line-height: 1;
   padding: 0.5rem;
 }
 
 .site-header {
+  background: white;
   display: grid;
   font-size: 1.5em;
   font-style: italic;
