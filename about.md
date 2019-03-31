@@ -8,6 +8,8 @@ title: About
 
 Hi, I'm Derek Houck. I was raised in Kansas City, Missouri on chocolate, video games, and Kevin Costner films. I remember rooting in vain for the Royals in the awful years before they rebuilt and won the World Series.
 
+<img class="align-right" alt="Working on my laptop at the Mobility & Modern Web Conference" src="/assets/images/on-laptop.jpg">
+
 ## Derek the Developer
 
 The first website I ever created was a Mortal Kombat fan community called _Damage's Cave_ back in the days of GeoCities. You can actually still see it on the [Internet Archive’s Wayback Machine](http://web.archive.org/web/20001204165600/http://thecave.kcizone.com/).
