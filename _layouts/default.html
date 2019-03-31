@@ -2,15 +2,17 @@
 
 <header class="site-header">
   <div class="site-branding">
-    <img class="site-logo" src="/assets/images/logo.svg" alt="Derek Houck">
+    <img class="site-logo" src="/assets/images/logo.svg" alt="Derek Houck" />
   </div>
   {% include navigation.html %}
 </header>
-<main class="site-content {{ page.background }}">
-  {{ content }}
+<main class="{{ page.background }}">
+  {% if page.banner %}
+  <img class="banner" src="/assets/images/{{ page.banner }}" />
+  {% endif %}
+  <div class="site-content">
+    {{ content }}
+  </div>
 </main>
-{% if jekyll.environment == 'production' %}
-{% include analytics.html %}
-{% endif %}
-
-{% include foot.html %}
+{% if jekyll.environment == 'production' %} {% include analytics.html %} {%
+endif %} {% include foot.html %}
