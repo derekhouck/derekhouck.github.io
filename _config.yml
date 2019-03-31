@@ -26,3 +26,11 @@ github: [metadata]
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-responsive-image
+
+responsive_image:
+  template: _includes/responsive-image.html
+  sizes:
+    - width: 480
+    - width: 800
+    - width: 1400

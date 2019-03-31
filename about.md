@@ -8,7 +8,7 @@ title: About
 
 Hi, I'm Derek Houck. I was raised in Kansas City, Missouri on chocolate, video games, and Kevin Costner films. I remember rooting in vain for the Royals in the awful years before they rebuilt and won the World Series.
 
-<img class="align-right" alt="Working on my laptop at the Mobility & Modern Web Conference" src="/assets/images/on-laptop.jpg">
+{% responsive_image path: assets/images/on-laptop.jpg alt: "Working on my laptop at the Mobility & Modern Web Conference" class: align-right %}
 
 ## Derek the Developer
 
@@ -16,7 +16,7 @@ The first website I ever created was a Mortal Kombat fan community called _Damag
 
 In the years since, I have had to reinvent myself as a developer several times. I’ve created sites and apps using CSS, WordPress/PHP, Ruby/Rails, Node.js, React, and React Native. I also have experience with MySQL, PostgreSQL, and MongoDB. I take great pride in creating sites that are accessible, load quickly, and are device independent.
 
-<img class="align-right" alt="As Napoleon in Napoleon Bon Appetit" src="/assets/images/napoleon.jpg">
+{% responsive_image class: align-right alt: "As Napoleon in Napoleon Bon Appetit" path: assets/images/napoleon.jpg %}
 
 ## Derek the Actor
 
