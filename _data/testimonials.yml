@@ -3,7 +3,9 @@
   name: Christina Aimerito
   title: Creator
   slug: ggs
-  headshot: kiki.jpg
+  headshot:
+    src: kiki.jpg
+    alt: Christina's headshot
   content: |
     When I asked Derek to design my site, I didn’t expect that his help would also help me to fine tune my brand. He asked me several questions that I had never thought to ask myself. The specificity and care with which he took in the information about my site’s purpose and its viewership were not only pivotal in creating a successful website, it helped me to articulate my goals for the future.
 
@@ -13,7 +15,9 @@
   name: Sara Hays
   title: Sr. Marketing Representative, Brand & Program Development
   slug: disneysara
-  headshot: sara.jpg
+  headshot:
+    src: sara.jpg
+    alt: Sara's headshot
   content: |
     I was lucky to work with Derek at The Walt Disney Company where he was responsible for building internal websites and more. I could always count on him to deliver high-quality work, meet tight deadlines and provide insight on complicated projects. His can-do attitude and grasp of online trends is a true asset to any team.
 - quote: Every project manager’s dream
@@ -21,7 +25,9 @@
   name: Angie Rupert
   title: Owner
   slug: angie
-  headshot: angie.jpg
+  headshot:
+    src: angie.jpg
+    alt: Angie's headshot
   content: |
     Derek is every project manager’s dream. He is incredibly responsive and punctual, which is rare among developers. He quickly made changes as requested and always met deadlines. In addition, Derek’s work was impeccable. The sites he built looked good in every browser and were easy for the clients to update. Overall, Derek is great at what he does and he’s easy to work with. I highly recommend him.
 - quote: Dependable, hard-working, extremely talented...
@@ -29,7 +35,9 @@
   name: Jason Castro
   title: Website Manager
   slug: gmg
-  headshot: jason.jpg
+  headshot:
+    src: jason.jpg
+    alt: Jason's headshot
   content: |
     If you're looking for a dependable, hard working, extremely talented, and a wonderfully witty person to boot, look no further than Derek. 
 
@@ -43,7 +51,9 @@
   name: Kristin Madding
   title: Business Integration Specialist
   slug: disneykristin
-  headshot: kristin.jpg
+  headshot:
+    src: kristin.jpg
+    alt: Kristin's headshot
   content: |
     I had the pleasure of working with Derek in Disney's Environmental Affairs department for over 2 years. Derek is extremely skilled at web programming and digital media, but moreover, he is a reliable, respectful, hard-working contributor and all-around good person. I could always rely on him to meet objectives and goals efficiently, stay flexible when objectives changed, and communicate his needs openly, without drama. I thoroughly enjoyed working with Derek, highly recommend him as an employee and would love to work with him again one day.
 - quote: Organied, driven, and polite
@@ -51,6 +61,8 @@
   name: Trent Freeman
   title: Vice President
   slug: owc
-  headshot: trent.jpg
+  headshot:
+    src: trent.jpg
+    alt: Trent's headshot
   content: |
     Derek has been very professional and very clear in all communications. Not only is the site to design, the code is very clean and slick. Throughout the entire process he is responsive, and willing to work through issues as they arise. It’s obvious he takes tremendous pride in his work, and I wouldn’t hesitate to recommend or work with him again.

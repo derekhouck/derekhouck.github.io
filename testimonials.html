@@ -1,5 +1,6 @@
 ---
 title: Testimonials
+background: paint
 ---
 <h1>Testimonials</h1>
 
@@ -8,10 +9,7 @@ title: Testimonials
   <li id={{ testimonial.slug }} class="testimonial">
     {% if testimonial.headshot %}
     <div class="headshot">
-      {% responsive_image_block %}
-        path: assets/images/{{ testimonial.headshot }}
-        alt: Headshot
-      {% endresponsive_image_block %}
+      <img src="/assets/images/{{testimonial.headshot.src}}" alt="{{testimonial.headshot.alt}}">
     </div>
     {% endif %}
     <div class="copy">

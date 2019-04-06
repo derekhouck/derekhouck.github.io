@@ -9,7 +9,10 @@
 <main class="{{ page.background }}">
   {% if page.banner %}
   <!-- TODO: Make image responsive -->
-  <img class="banner" src="/assets/images/{{ page.banner }}" />
+  <img
+    class="banner"
+    src="{{ site.cloudinary_url }}/v1554591342/central-perk-banner.jpg"
+  />
   {% endif %}
   <div class="site-content">
     {{ content }}
