@@ -305,16 +305,22 @@ body.yellow .site-nav {
   align-self: center;
   grid-area: headshot;
   justify-self: center;
+  text-align: center;
 }
 
 .headshot img {
+  border: 5px solid black;
   border-radius: 100%;
-  box-shadow: 2px 2px 4px 0 black;
-  max-width: 250px;
+  box-shadow: 4px 4px 8px 0 black;
+  max-width: 50%;
 }
 
 @media all and (min-width: $breakpoint-medium) {
   .testimonial {
     grid-template-areas: "content headshot";
+  }
+
+  .headshot img {
+    max-width: 250px;
   }
 }
