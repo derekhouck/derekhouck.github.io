@@ -1,6 +1,7 @@
 - quote: I just can’t say enough
   org: Girls' Game Shelf
   name: Christina Aimerito
+  title: Creator
   slug: ggs
   headshot: kiki.jpg
   content: |
@@ -10,6 +11,7 @@
 - quote: I could always count on him
   org: The Walt Disney Company
   name: Sara Hays
+  title: Sr. Marketing Representative, Brand & Program Development
   slug: disneysara
   headshot: sara.jpg
   content: |
@@ -17,6 +19,7 @@
 - quote: Every project manager’s dream
   org: Lucky Marketing Firm
   name: Angie Rupert
+  title: Owner
   slug: angie
   headshot: angie.jpg
   content: |
@@ -24,6 +27,7 @@
 - quote: Dependable, hard-working, extremely talented...
   org: Goldman Marketing Group
   name: Jason Castro
+  title: Website Manager
   slug: gmg
   headshot: jason.jpg
   content: |
@@ -37,6 +41,7 @@
 - quote: Would love to work with him again one day
   org: The Walt Disney Company
   name: Kristin Madding
+  title: Business Integration Specialist
   slug: disneykristin
   headshot: kristin.jpg
   content: |
@@ -44,6 +49,7 @@
 - quote: Organied, driven, and polite
   org: Olmstead Williams Communications
   name: Trent Freeman
+  title: Vice President
   slug: owc
   headshot: trent.jpg
   content: |

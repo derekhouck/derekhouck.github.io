@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Akzidenz-Grotesk";
+  font-family: "Akzidenz-Grotesk Condensed";
   src: local("Berthold Akzidenz-Grotesk Medium Condensed Italic"),
     local("AkzidenzGroteskBE-MdCnIt"),
     url("/assets/fonts/hinted-AkzidenzGroteskBE-MdCnIt.woff2") format("woff2"),
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: "Akzidenz-Grotesk";
+  font-family: "Akzidenz-Grotesk Condensed";
   src: local("Berthold Akzidenz-Grotesk Medium Condensed"),
     local("AkzidenzGroteskBE-MdCn"),
     url("/assets/fonts/hinted-AkzidenzGroteskBE-MdCn.woff2") format("woff2"),
@@ -18,23 +18,23 @@
   font-style: normal;
 }
 
-// @font-face {
-//     font-family: 'Akzidenz-Grotesk';
-//     src: local('Berthold Akzidenz-Grotesk Medium'), local('AkzidenzGroteskBE-Md'),
-//         url('../assets/fonts/hinted-AkzidenzGroteskBE-Md.woff2') format('woff2'),
-//         url('../assets/fonts/hinted-AkzidenzGroteskBE-Md.woff') format('woff');
-//     font-weight: 500;
-//     font-style: normal;
-// }
-
 @font-face {
-  font-family: "Akzidenz-Grotesk";
+  font-family: "Akzidenz-Grotesk Condensed";
   src: local("Berthold Akzidenz-Grotesk Extra Bold Condensed Italic"),
     local("AkzidenzGroteskBE-XBdCnIt"),
     url("/assets/fonts/hinted-AkzidenzGroteskBE-XBdCnIt.woff2") format("woff2"),
     url("/assets/fonts/hinted-AkzidenzGroteskBE-XBdCnIt.woff") format("woff");
   font-weight: bold;
   font-style: italic;
+}
+
+@font-face {
+  font-family: "Akzidenz-Grotesk";
+  src: local("Berthold Akzidenz-Grotesk Medium"), local("AkzidenzGroteskBE-Md"),
+    url("../assets/fonts/hinted-AkzidenzGroteskBE-Md.woff2") format("woff2"),
+    url("../assets/fonts/hinted-AkzidenzGroteskBE-Md.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {

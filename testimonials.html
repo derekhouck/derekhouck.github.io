@@ -3,22 +3,24 @@ title: Testimonials
 ---
 <h1>Testimonials</h1>
 
-<ul class="">
+<ul class="testimonials">
   {% for testimonial in site.data.testimonials %}
-  <li id={{ testimonial.slug }}>
+  <li id={{ testimonial.slug }} class="testimonial">
     {% if testimonial.headshot %}
+    <div class="headshot">
       {% responsive_image_block %}
         path: assets/images/{{ testimonial.headshot }}
         alt: Headshot
-        class: align-right
       {% endresponsive_image_block %}
-    {% endif %}
-    <div class="">
-      {{ testimonial.content | markdownify }}
     </div>
-    <p>
-      {{ testimonial.name }} - {{ testimonial.org }}
-    </p>
+    {% endif %}
+    <div class="copy">
+      {{ testimonial.content | markdownify }}
+      <p>
+        {{ testimonial.name }}, <em>{{ testimonial.title }}</em>
+        <br><strong>{{ testimonial.org }}</strong>
+      </p>
+    </div>
   </li>
   {% endfor %}
 </ul>
