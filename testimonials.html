@@ -9,7 +9,7 @@ background: paint
   <li id={{ testimonial.slug }} class="testimonial">
     {% if testimonial.headshot %}
     <div class="headshot">
-      <img src="/assets/images/{{testimonial.headshot.src}}" alt="{{testimonial.headshot.alt}}">
+      <img src="{{ site.cloudinary_url }}/v1554591342/{{testimonial.headshot.src}}" alt="{{testimonial.headshot.alt}}">
     </div>
     {% endif %}
     <div class="copy">
