@@ -6,9 +6,16 @@ title: Testimonials
 <ul class="">
   {% for testimonial in site.data.testimonials %}
   <li id={{ testimonial.slug }}>
-    <p class="">
-      {{ testimonial.quote}}
-    </p>
+    {% if testimonial.headshot %}
+      {% responsive_image_block %}
+        path: assets/images/{{ testimonial.headshot }}
+        alt: Headshot
+        class: align-right
+      {% endresponsive_image_block %}
+    {% endif %}
+    <div class="">
+      {{ testimonial.content | markdownify }}
+    </div>
     <p>
       {{ testimonial.name }} - {{ testimonial.org }}
     </p>
