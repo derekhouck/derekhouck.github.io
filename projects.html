@@ -1,0 +1,23 @@
+---
+title: Projects
+---
+<h1>Projects</h1>
+
+<ul class="projects">
+  {% for project in site.data.projects %}
+  <li id={{ testimonial.slug }} class="project">
+    {% if project.headshot %}
+    <div class="headshot">
+      <img src="{{ site.cloudinary_url }}/w_250/{{project.headshot.src}}" alt="{{project.headshot.alt}}">
+    </div>
+    {% endif %}
+    <div class="copy">
+      {{ project.content | markdownify }}
+      <p>
+        {{ project.name }}, <em>{{ project.title }}</em>
+        <br><strong>{{ project.org }}</strong>
+      </p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
