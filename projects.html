@@ -1,5 +1,6 @@
 ---
 title: Projects
+background: blue
 ---
 <h1>Projects</h1>
 
@@ -12,11 +13,8 @@ title: Projects
     </div>
     {% endif %}
     <div class="copy">
-      {{ project.content | markdownify }}
-      <p>
-        {{ project.name }}, <em>{{ project.title }}</em>
-        <br><strong>{{ project.org }}</strong>
-      </p>
+      <h2>{{ project.title }}</h2>
+      {{ project.description | markdownify }}
     </div>
   </li>
   {% endfor %}

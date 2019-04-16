@@ -1,3 +1,8 @@
+- title: War of the Games
+  description: Your favorite games go head-to-head against each other in one-on-one battles where you choose the victor. It's all in a quest to get your better video game recommendations.
 - title: Dog Fetcher
+  description: A React Native app that lets you look at random images of cute dogs and save the ones you like to your device.
 - title: My Board Game Shelf
+  description: App developed to help board game lovers curate their collections. It is written in React with a Node.js/MongoDB back-end.
 - title: Girls' Game Shelf
+  description: Fully responsive WordPress site that utilizes CSS Grid, embedded SVGs, and transition animations. Other features include streaming video on the homepage, a card layout for blog posts, character sheets for player bios, and the site owner is able to update most content without getting a developer involved.

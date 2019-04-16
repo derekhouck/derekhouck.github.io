@@ -13,10 +13,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body.blue,
 body.navy,
 body.paint,
 body.purple {
   color: white;
+}
+
+body.blue,
+body.blue .site-header {
+  background: $blue;
 }
 
 body.navy,
