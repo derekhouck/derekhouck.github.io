@@ -6,7 +6,7 @@ background: blue
 
 <ul class="projects">
   {% for project in site.data.projects %}
-  <li id={{ testimonial.slug }} class="project">
+  <li id={{ project.slug }} class="project">
     {% if project.headshot %}
     <div class="headshot">
       <img src="{{ site.cloudinary_url }}/w_250/{{project.headshot.src}}" alt="{{project.headshot.alt}}">
@@ -15,6 +15,12 @@ background: blue
     <div class="copy">
       <h2>{{ project.title }}</h2>
       {{ project.description | markdownify }}
+      <ul class="project__links">
+        <li><a href="{{ project.url }}" target="_blank">{{ project.urlName }}</a></li>
+        {% if project.github %}
+        <li><a href="{{ project.github}}" target="_blank">GitHub</a></li>
+        {% endif %}
+      </ul>
     </div>
   </li>
   {% endfor %}

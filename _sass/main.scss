@@ -288,6 +288,31 @@ body.yellow .site-nav {
   }
 }
 
+// Projects
+.projects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project {
+  background-color: white;
+  border: 5px solid $red;
+  color: black;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.project__links {
+  font-style: italic;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0.5rem 0;
+  }
+}
+
 // Testimonials
 .testimonials {
   margin: 0;
