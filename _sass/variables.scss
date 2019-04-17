@@ -7,8 +7,11 @@ $red-darker: hsl(6, 94%, 22%);
 $yellow: #ffc44a;
 $yellow-darker: hsl(40, 100%, 32%);
 $yellow-lighter: hsl(40, 100%, 74%);
-$blue: #0857a8;
+$blue: hsl(210, 91%, 35%); //#0857a8
 $blue-darker: hsl(210, 91%, 17%);
+$blue-black: hsl(210, 91%, 9%);
+$blue-lighter: hsl(210, 91%, 70%);
+$blue-white: hsl(210, 91%, 85%);
 
 // Background colors
 $navy: hsl(210, 45, 10);

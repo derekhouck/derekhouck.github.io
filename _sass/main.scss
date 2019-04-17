@@ -52,9 +52,12 @@ body.tan .site-header {
   background: rgba(215, 208, 198, 0.3);
 }
 
-body.yellow,
+body.yellow {
+  background: $yellow;
+  color: $blue-black;
+}
 body.yellow .site-header {
-  background: $yellow-lighter;
+  background: $yellow;
 }
 
 a:link {
@@ -64,10 +67,13 @@ a:visited {
   color: $blue-darker;
 }
 
+body.blue a:link,
 body.navy a:link,
 body.purple a:link {
   color: $yellow-lighter;
 }
+
+body.blue a:visited,
 body.navy a:visited,
 body.purple a:visited {
   color: $yellow;
@@ -184,6 +190,14 @@ main {
   }
 }
 
+body.blue .site-nav {
+  background: $red;
+  color: white;
+  a {
+    color: white;
+  }
+}
+
 body.navy .site-nav,
 body.purple .site-nav {
   background: $yellow;
@@ -197,6 +211,10 @@ body.paint .site-nav,
 body.tan .site-nav,
 body.yellow .site-nav {
   background: $blue;
+  color: white;
+  a {
+    color: white;
+  }
 }
 
 .site-subtitle {
@@ -310,11 +328,8 @@ body.yellow .site-nav {
 }
 
 .project {
-  background-color: white;
-  border: 5px solid $red;
-  color: black;
-  margin: 1rem 0;
-  padding: 1rem;
+  margin: 2rem 0;
+  padding: 0;
 }
 
 .project__links {
@@ -344,9 +359,9 @@ body.yellow .site-nav {
 }
 
 .testimonial {
-  background: rgb(252, 217, 223);
-  border: 5px solid black;
-  color: black;
+  background-color: $blue-white;
+  // background: rgb(252, 217, 223);
+  color: $blue-black;
   display: grid;
   grid-column-gap: 1rem;
   grid-template-areas:
@@ -354,7 +369,7 @@ body.yellow .site-nav {
     "content";
   list-style: none;
   margin: 1rem 0;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .headshot {
@@ -365,7 +380,6 @@ body.yellow .site-nav {
 }
 
 .headshot img {
-  border: 5px solid black;
   border-radius: 100%;
   box-shadow: 4px 4px 8px 0 black;
   max-width: 50%;
