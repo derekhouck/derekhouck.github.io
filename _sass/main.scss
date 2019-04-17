@@ -13,7 +13,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body.blue,
 body.navy,
 body.paint,
 body.purple {
@@ -23,6 +22,7 @@ body.purple {
 body.blue,
 body.blue .site-header {
   background: $blue;
+  color: $blue-white;
 }
 
 body.navy,
@@ -96,6 +96,7 @@ h6 {
 }
 
 h1 {
+  border-bottom: 2px solid currentColor;
   text-align: center;
 }
 
@@ -388,7 +389,7 @@ body.yellow .site-nav {
 }
 
 .headshot img {
-  border-radius: 100%;
+  border-radius: 1rem;
   box-shadow: 4px 4px 8px 0 black;
   max-width: 50%;
 }
