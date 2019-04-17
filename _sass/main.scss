@@ -99,6 +99,38 @@ a:visited {
   color: $blue-darker;
 }
 
+blockquote {
+  margin: 1rem 0;
+  padding: 0 1.5rem;
+  position: relative;
+  &::before,
+  &::after {
+    color: $blue;
+    text-shadow: 1px 1px 1px black;
+  }
+}
+
+blockquote:before {
+  content: open-quote;
+  font-size: 4em;
+  left: -1rem;
+  position: absolute;
+  top: -1rem;
+}
+
+blockquote:after {
+  bottom: -1rem;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1;
+  position: absolute;
+  right: -1rem;
+}
+
+blockquote p {
+  margin: 0 0 1em;
+}
+
 h1,
 h2,
 h3,
@@ -383,6 +415,10 @@ main {
   border-radius: 1rem;
   box-shadow: 4px 4px 8px 0 black;
   max-width: 50%;
+}
+
+.copy__attribution {
+  padding: 0 1.5rem;
 }
 
 @media all and (min-width: $breakpoint-medium) {

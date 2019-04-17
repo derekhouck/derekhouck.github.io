@@ -13,8 +13,10 @@ background: blue
     </div>
     {% endif %}
     <div class="copy">
-      {{ testimonial.content | markdownify }}
-      <p>
+      <blockquote>
+        {{ testimonial.content | markdownify }}
+      </blockquote>
+      <p class="copy__attribution">
         {{ testimonial.name }}, <em>{{ testimonial.title }}</em>
         <br><strong>{{ testimonial.org }}</strong>
       </p>
