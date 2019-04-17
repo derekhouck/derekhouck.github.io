@@ -20,6 +20,9 @@ background: blue
         {% if project.github %}
         <li><a href="{{ project.github}}" target="_blank">GitHub</a></li>
         {% endif %}
+        {% if project.testimonial %}
+        <li><a href="testimonials.html#{{ project.testimonial }}">Testimonial</a></li>
+        {% endif %}
       </ul>
     </div>
   </li>

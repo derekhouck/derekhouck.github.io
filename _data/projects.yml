@@ -30,6 +30,7 @@
   description: Fully responsive WordPress site that utilizes CSS Grid, embedded SVGs, and transition animations. Other features include streaming video on the homepage, a card layout for blog posts, character sheets for player bios, and the site owner is able to update most content without getting a developer involved.
   url: https://girlsgameshelf.com/
   urlName: girlsgameshelf.com
+  testimonial: ggs
   screenshot:
     src: ggs-blog.png
     alt: The Girls' Game Shelf blog page on several different devices
