@@ -4,20 +4,32 @@
   github: https://github.com/thinkful-ei27/war-of-the-games
   url: https://www.warofthegames.com/
   urlName: warofthegames.com
+  screenshot:
+    src: wotg-home.jpg
+    alt: Screenshot of the homepage of War of the Games
 - title: Dog Fetcher
   slug: dog-fetcher
   description: A React Native app that lets you look at random images of cute dogs and save the ones you like to your device.
   github: https://github.com/derekhouck/dog-fetcher
   url: https://expo.io/@derekhouck/dog-fetcher
   urlName: expo.io/@derekhouck/dog-fetcher
+  screenshot:
+    src: dog-fetcher-iphone-xr.jpg
+    alt: Dog Fetcher on an iPhone XR
 - title: My Board Game Shelf
   slug: my-board-game-shelf
   description: App developed to help board game lovers curate their collections. It is written in React with a Node.js/MongoDB back-end.
   github: https://github.com/derekhouck/My-Board-Game-Shelf
   url: https://my-board-game-shelf.herokuapp.com/
   urlName: my-board-game-shelf.herokuapp.com
+  screenshot:
+    src: mbgs.jpg
+    alt: Several devices showing the responsive layout of My Board Game Shelf
 - title: Girls' Game Shelf
   slug: girls-game-shelf
   description: Fully responsive WordPress site that utilizes CSS Grid, embedded SVGs, and transition animations. Other features include streaming video on the homepage, a card layout for blog posts, character sheets for player bios, and the site owner is able to update most content without getting a developer involved.
   url: https://girlsgameshelf.com/
   urlName: girlsgameshelf.com
+  screenshot:
+    src: ggs-blog.png
+    alt: The Girls' Game Shelf blog page on several different devices

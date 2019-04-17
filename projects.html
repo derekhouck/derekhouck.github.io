@@ -7,9 +7,9 @@ background: blue
 <ul class="projects">
   {% for project in site.data.projects %}
   <li id={{ project.slug }} class="project">
-    {% if project.headshot %}
-    <div class="headshot">
-      <img src="{{ site.cloudinary_url }}/w_250/{{project.headshot.src}}" alt="{{project.headshot.alt}}">
+    {% if project.screenshot %}
+    <div class="project__screenshot">
+      <img src="{{ site.cloudinary_url }}/w_926/{{project.screenshot.src}}" alt="{{project.screenshot.alt}}">
     </div>
     {% endif %}
     <div class="copy">

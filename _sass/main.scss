@@ -313,6 +313,16 @@ body.yellow .site-nav {
   }
 }
 
+@media all and (min-width: $breakpoint-large) {
+  .project {
+    align-items: center;
+    display: grid;
+    grid-column-gap: 1rem;
+    grid-template-areas: "screenshot copy";
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
 // Testimonials
 .testimonials {
   margin: 0;
