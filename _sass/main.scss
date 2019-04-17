@@ -40,6 +40,18 @@ body.purple .site-header {
   background: $purple;
 }
 
+body.tan {
+  background: linear-gradient(
+    to bottom,
+    rgba(215, 208, 198, 0.3),
+    rgba(215, 208, 198, 0.1)
+  );
+  color: #7d7c7b;
+}
+body.tan .site-header {
+  background: rgba(215, 208, 198, 0.3);
+}
+
 body.yellow,
 body.yellow .site-header {
   background: $yellow-lighter;
@@ -181,6 +193,8 @@ body.purple .site-nav {
   }
 }
 
+body.paint .site-nav,
+body.tan .site-nav,
 body.yellow .site-nav {
   background: $blue;
 }
@@ -365,4 +379,11 @@ body.yellow .site-nav {
   .headshot img {
     max-width: 250px;
   }
+}
+
+// Posts
+.posts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

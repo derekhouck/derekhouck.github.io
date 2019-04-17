@@ -23,7 +23,7 @@
   url: https://my-board-game-shelf.herokuapp.com/
   urlName: my-board-game-shelf.herokuapp.com
   screenshot:
-    src: mbgs.jpg
+    src: mbgs-screenshot.png
     alt: Several devices showing the responsive layout of My Board Game Shelf
 - title: Girls' Game Shelf
   slug: girls-game-shelf
