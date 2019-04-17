@@ -201,6 +201,11 @@ main {
   a {
     color: white;
   }
+  a:active,
+  a:focus,
+  a:hover {
+    text-shadow: 1px 1px 0 black;
+  }
   li {
     display: inline-block;
     margin: 0 0.5rem;
