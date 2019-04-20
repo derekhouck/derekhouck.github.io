@@ -308,6 +308,11 @@ main {
   a {
     text-decoration: none;
   }
+  a:active,
+  a:focus,
+  a:hover {
+    text-shadow: 1px 1px 0 black;
+  }
   li {
     margin: 2rem 0;
   }
