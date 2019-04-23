@@ -230,23 +230,35 @@ main {
   background: $red;
   color: white;
   grid-area: nav;
-  padding: 0.5rem;
   a {
     color: white;
+    display: block;
+    margin: 0;
+    padding: 0.5rem;
+    transition: background 0.5s, color 0.5s;
   }
   a:active,
   a:focus,
   a:hover {
-    text-shadow: 1px 1px 0 black;
+    background: hsla(210, 91%, 9%, 0.8);
+    outline: 0;
   }
   li {
-    display: inline-block;
-    margin: 0 0.5rem;
   }
   ul {
-    list-style-type: disc;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
     margin: 0 1rem;
     padding: 0;
+  }
+}
+
+.site-nav ul > li {
+  a:active,
+  a:focus,
+  a:hover {
+    color: white;
   }
 }
 
@@ -266,6 +278,9 @@ main {
 
   .site-nav {
     text-align: right;
+    ul {
+      justify-content: flex-end;
+    }
   }
 }
 
