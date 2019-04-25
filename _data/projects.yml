@@ -1,6 +1,6 @@
 - title: War of the Games
   slug: war-of-the-games
-  description: Your favorite games go head-to-head against each other in one-on-one battles where you choose the victor. It's all in a quest to get your better video game recommendations.
+  description: Video game recommendation engine built using Node, Express, MongoDB, and the IGDB API. I created most of the API endpoints and implemented a back-end testing suite with over 80% code coverage.
   github: https://github.com/thinkful-ei27/war-of-the-games
   url: https://www.warofthegames.com/
   urlName: warofthegames.com
@@ -16,6 +16,15 @@
   screenshot:
     src: dog-fetcher-iphone-xr.jpg
     alt: Dog Fetcher on an iPhone XR
+- title: Traffic's Cool
+  slug: traffics-cool
+  description: Uses spaced reptition to aid users in learning traffic signs. Built with Node, Express, MongoDB, and React.
+  github: https://github.com/publikwerker/traffics-cool
+  url: https://www.traffics.cool/
+  urlName: traffics.cool
+  screenshot:
+    src: traffics-cool.jpg
+    alt: The Traffic's Cool app on an iMac and an iPhone
 - title: My Board Game Shelf
   slug: my-board-game-shelf
   description: App developed to help board game lovers curate their collections. It is written in React with a Node.js/MongoDB back-end.
