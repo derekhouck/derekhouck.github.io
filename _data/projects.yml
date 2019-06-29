@@ -29,8 +29,8 @@
   slug: my-board-game-shelf
   description: App developed to help board game lovers curate their collections. It is written in React with a Node.js/MongoDB back-end.
   github: https://github.com/derekhouck/My-Board-Game-Shelf
-  url: https://my-board-game-shelf.herokuapp.com/
-  urlName: my-board-game-shelf.herokuapp.com
+  url: http://myboardgameshelf.com
+  urlName: myboardgameshelf.com
   screenshot:
     src: mbgs-screenshot.png
     alt: Several devices showing the responsive layout of My Board Game Shelf
