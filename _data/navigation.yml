@@ -1,5 +1,7 @@
 - name: About
   link: /about.html
+- name: Now
+  link: /now
 - name: Projects
   link: /projects.html
 - name: Refs
