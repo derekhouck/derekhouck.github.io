@@ -2,9 +2,9 @@
   link: /about.html
 - name: Now
   link: /now
-- name: Projects
-  link: /projects.html
 - name: Refs
   link: /testimonials.html
+- name: Projects
+  link: /projects.html
 - name: Contact
   link: /contact.html
