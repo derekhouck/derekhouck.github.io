@@ -100,7 +100,8 @@ a:visited {
 }
 
 blockquote {
-  margin: 1rem 0;
+  font-family: 'Domine', serif;
+  margin: 2rem 0;
   padding: 0 1.5rem;
   position: relative;
   &::before,
@@ -115,11 +116,11 @@ blockquote:before {
   font-size: 4em;
   left: -1rem;
   position: absolute;
-  top: -1rem;
+  top: -3rem;
 }
 
 blockquote:after {
-  bottom: -1rem;
+  bottom: -2rem;
   content: close-quote;
   font-size: 4em;
   line-height: 0.1;
@@ -171,7 +172,6 @@ main {
 }
 
 .site-content {
-  font-size: 1.25em;
   margin: 0 auto;
   max-width: 50em;
   padding: 1rem 1rem;
@@ -190,6 +190,10 @@ main {
     float: right;
     margin: 1rem 0 1rem 1rem;
     max-width: 25%;
+  }
+
+  .site-content {
+    font-size: 1.25em;
   }
 }
 
@@ -250,7 +254,7 @@ main {
     display: flex;
     list-style-type: none;
     justify-content: center;
-    margin: 0 1rem;
+    margin: 0;
     padding: 0;
   }
 }
@@ -281,6 +285,7 @@ main {
     text-align: right;
     ul {
       justify-content: flex-end;
+      margin: 0 1rem;
     }
   }
 }

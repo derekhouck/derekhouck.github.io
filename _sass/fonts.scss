@@ -31,8 +31,8 @@
 @font-face {
   font-family: "Akzidenz-Grotesk";
   src: local("Berthold Akzidenz-Grotesk Medium"), local("AkzidenzGroteskBE-Md"),
-    url("../assets/fonts/hinted-AkzidenzGroteskBE-Md.woff2") format("woff2"),
-    url("../assets/fonts/hinted-AkzidenzGroteskBE-Md.woff") format("woff");
+    url("/assets/fonts/hinted-AkzidenzGroteskBE-Md.woff2") format("woff2"),
+    url("/assets/fonts/hinted-AkzidenzGroteskBE-Md.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
