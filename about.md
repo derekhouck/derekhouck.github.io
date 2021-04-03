@@ -8,13 +8,15 @@ title: About
 
 Hi, I'm Derek Houck. I was raised in Kansas City, Missouri on chocolate, video games, and Kevin Costner films. I remember rooting in vain for the Royals in the awful years before they rebuilt and won the World Series.
 
-<img src="{{site.cloudinary_url}}/v1554592620/on-laptop.jpg" class="align-right" alt="Working on my laptop at the Mobility & Modern Web Conference">
+<img src="{{site.cloudinary_url}}/v1554592620/bendyworks.jpg" class="align-right" alt="Working on my laptop at the Mobility & Modern Web Conference">
 
 ## Derek the Developer
 
-The first website I ever created was a Mortal Kombat fan community called _Damage's Cave_ back in the days of GeoCities. You can actually still see it on the [Internet Archive’s Wayback Machine](http://web.archive.org/web/20001204165600/http://thecave.kcizone.com/).
+I was there for [GeoCities](https://web.archive.org/web/19990210064637/http://www.geocities.com:80/TimesSquare/Arcade/2124/main.html). I was there for [table-based layout](https://web.archive.org/web/20020806222926/http://redwhiteandblue.static.nu:80/). I was there for [XHTML](https://web.archive.org/web/20050324021948/http://hollywoodcowboy.brightest-star.net/) and [CSS floats](https://web.archive.org/web/20070203124707/http://derekhouck.brightest-star.net/journal/).
 
-In the years since, I have had to reinvent myself as a developer several times. I’ve created sites and apps using CSS, WordPress/PHP, Ruby/Rails, Node.js, React, and React Native. I also have experience with MySQL, PostgreSQL, and MongoDB. I take great pride in creating sites that are accessible, load quickly, and are device independent.
+Nowadays, I specialize in Ruby on Rails and React, but I've also built sites and apps running WordPress, static site generators, Node.js, and React Native. I have experience with SQL and NoSQL. I create reliable, well-tested web applications.
+
+I reinvented my career thanks to a coding bootcamp, and I try my best these days to support and assist those now starting their web dev journeys.
 
 <img src="{{site.cloudinary_url}}/v1554592620/napoleon.jpg" class="align-right" alt="As Napoleon in Napoleon Bon Appetit">
 
