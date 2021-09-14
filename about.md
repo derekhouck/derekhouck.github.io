@@ -4,7 +4,7 @@ background: purple
 title: About
 ---
 
-# About Me
+# About Derek Houck
 
 Hi, I'm Derek Houck. I was raised in Kansas City, Missouri on chocolate, video games, and Kevin Costner films. I remember rooting in vain for the Royals in the awful years before they rebuilt and won the World Series.
 
@@ -12,11 +12,9 @@ Hi, I'm Derek Houck. I was raised in Kansas City, Missouri on chocolate, video g
 
 ## Derek the Developer
 
-I was there for [GeoCities](https://web.archive.org/web/19990210064637/http://www.geocities.com:80/TimesSquare/Arcade/2124/main.html). I was there for [table-based layout](https://web.archive.org/web/20020806222926/http://redwhiteandblue.static.nu:80/). I was there for [XHTML](https://web.archive.org/web/20050324021948/http://hollywoodcowboy.brightest-star.net/) and [CSS floats](https://web.archive.org/web/20070203124707/http://derekhouck.brightest-star.net/journal/).
+I was there for [GeoCities](https://web.archive.org/web/19990210064637/http://www.geocities.com:80/TimesSquare/Arcade/2124/main.html), [table-based layout](https://web.archive.org/web/20020806222926/http://redwhiteandblue.static.nu:80/), [XHTML](https://web.archive.org/web/20050324021948/http://hollywoodcowboy.brightest-star.net/), and [CSS floats](https://web.archive.org/web/20070203124707/http://derekhouck.brightest-star.net/journal/). Nowadays, I specialize in test-driven development using Ruby on Rails and React. I've also built sites and apps running Node.js, WordPress, static site generators, and React Native. I have experience with SQL and NoSQL. I create reliable, well-tested web applications.
 
-Nowadays, I specialize in Ruby on Rails and React, but I've also built sites and apps running WordPress, static site generators, Node.js, and React Native. I have experience with SQL and NoSQL. I create reliable, well-tested web applications.
-
-I reinvented my career thanks to a coding bootcamp, and I try my best these days to support and assist those now starting their web dev journeys.
+I reinvented my career thanks to a coding bootcamp, and I try my best these days to support and mentor those now starting their web dev journeys.
 
 <img src="{{site.cloudinary_url}}/v1554592620/napoleon.jpg" class="align-right" alt="As Napoleon in Napoleon Bon Appetit">
 
