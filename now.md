@@ -4,9 +4,9 @@ title: Now
 
 # Now
 
-I have joined the [Bendyworks](https://bendyworks.com/) team as a Senior Web Developer. I also volunteer with a number of groups including [Tech for Campaigns](https://www.techforcampaigns.org/) and [Out in Tech](https://outintech.com/). Before the pandemic had us all staying safer at home, I did my best to attend a board game meetup at least once a month.
+I work as a software engineer at [Binti](https://binti.com/). I also volunteer as a mentor for [Techtonica](https://techtonica.org/). And I participate in a weekly online D&D group with former [Bendyworks](https://bendyworks.com/) co-workers as the Light Cleric Callie Goodbarrel.
 
-Our COVID kitten, Dante, is now one year old!
+I have two cats: Dante, a mature tuxedo, and his younger brother, Hazel, an immature tabby.
 
 ![Dante at one year old]({{ site.cloudinary_url }}/c_fill,w_250,h_250/dante-one-year.jpg)
 ![Dante, a tuxedo kitten with a white mustache, regarding the camera]({{ site.cloudinary_url }}/g_auto,c_fill,w_250,h_250/dante.jpg)
