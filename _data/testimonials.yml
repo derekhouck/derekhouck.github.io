@@ -1,3 +1,15 @@
+- quote: Derek advocates for his colleagues
+  org: Thunk
+  name: John Rudolph Drexler
+  title: Founder
+  slug: john-drexler
+  headshot:
+    src: john-drexler.jpg
+    alt: John Rudolph Drexler's headshot
+  content: |
+    Derek advocates for his colleagues. I have watched him go to bat for coworkers, and be generous with them on many occasions.
+
+    He clearly communicated useful questions and concerns while scoping our projects. These improved the design and architecture of these features. His ideas ranged from backend logic and query optimization, to smart ways to build frontend components, to UX design. This gave me a lot of confidence while I scoped projects, because I knew he was thinking deeply about the work, and wanted it to be as good as possible.
 - quote: I would recommend him to anyone
   org: egghead.io
   name: Daniel Miller
