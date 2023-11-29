@@ -4,11 +4,11 @@ title: Now
 
 # Now
 
-I work as a software engineer at [Binti](https://binti.com/). I also volunteer as a mentor for [Techtonica](https://techtonica.org/).
+I was laid off from Binti in November and I am currently looking for my next role. In the meantime, I continue to volunteer as a mentor for [Techtonica](https://techtonica.org/).
 
-In November, I will be moving back to Kansas City, Missouri after twenty years in Los Angeles. I expect to make up for lost time by eating a _lot_ of BBQ.
+Also in November, my wife, myself, and our two cats all moved back to Kansas City, Missouri after twenty years in Los Angeles. I'm now unpacking _so many_ boxes and getting reacquainted with the city and its wonderful food.
 
-I have two cats: Dante, a mature tuxedo, and his younger brother, Hazel, an immature tabby.
+Speaking of my cats, here's a photo of Dante, a mature tuxedo, and his younger brother, Hazel, an immature tabby.
 
 ![Hazel and DAnte]({{ site.cloudinary_url }}/c_fill,w_500,h_250/hazel-and-dante.jpg)
 
