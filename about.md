@@ -8,7 +8,7 @@ title: About
 
 Hi, I'm Derek Houck. I was raised in Kansas City, Missouri on chocolate, video games, and Kevin Costner films. I remember rooting in vain for the Royals in the awful years before they rebuilt and won the World Series.
 
-<img src="{{site.cloudinary_url}}/v1554592620/bendyworks.jpg" class="align-right" alt="Working on my laptop at the Mobility & Modern Web Conference">
+<img src="{{site.cloudinary_url}}/v1554592620/derek-thinking.jpg" class="align-right" alt="Derek deep in thought with his head resting on his fist.">
 
 ## Derek the Developer
 
