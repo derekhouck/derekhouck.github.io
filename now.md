@@ -4,7 +4,7 @@ title: Now
 
 # Now
 
-_Last updated on {{ page.last_modified_at | date: '%B %e, %Y' }}_.
+_Last updated on March 6th, 2024_.
 
 On February 26th, I started work as a Product & Software Engineer at [Volt](https://www.textvolt.com). I also continue to volunteer as a mentor for [Techtonica](https://techtonica.org/).
 
