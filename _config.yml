@@ -1,4 +1,7 @@
 title: DerekHouck.com
+author: Derek Houck
+description: The personal website of Derek Houck, an actor turned software engineer.
+url: https://derekhouck.com
 permalink: /:year/:month/:day/:title
 
 collections:
@@ -25,6 +28,7 @@ exclude: [vendor]
 github: [metadata]
 
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-responsive-image
 
