@@ -20,6 +20,6 @@ I reinvented my career thanks to a coding bootcamp, and I try my best these days
 
 ## Derek the Actor
 
-I arrived in Los Angeles in 2003 to attend the American Academy of Dramatic Arts in Hollywood and pursue a career as an actor. I had some minor success, appearing in _Community_, _United States of Tara_, and creating my own web series, _Napoleon Bon Appétit_. If you want, you can revisit my journey as an actor through this [archive of announcements](/blog.html) from the previous iteration of derekhouck.com.
+I arrived in Los Angeles in 2003 to attend the American Academy of Dramatic Arts in Hollywood and pursue a career as an actor. I had some minor success, appearing in _Community_, _United States of Tara_, and creating my own web series, _Napoleon Bon Appétit_. If you want, you can revisit my journey as an actor through this [archive of announcements](/blog/) from the previous iteration of derekhouck.com.
 
 In 2018, I stopped submitting myself for auditions and devoted myself full-time towards web development. I think my history in the entertainment industry has given me a unique ability to communicate clearly with my co-workers, understand the needs of my users, and search for creative solutions to the problems I face in my work. It's also answered the question, "What would Derek look like with antennae glued to his forehead?" You're welcome, America.

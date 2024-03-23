@@ -286,6 +286,7 @@ DEPENDENCIES
   html-proofer
   jekyll
   jekyll-feed
+  jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
   webrick (~> 1.7)

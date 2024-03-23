@@ -29,8 +29,12 @@ github: [metadata]
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-responsive-image
 
 # Images
 cloudinary_url: https://res.cloudinary.com/dlwgq6st9/image/upload
+
+paginate: 10
+paginate_path: "/blog/page:num/"
