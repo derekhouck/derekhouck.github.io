@@ -501,6 +501,13 @@ main {
   padding: 0;
 }
 
+.post-content {
+  h1 {
+    padding: 0;
+    text-align: left;
+  }
+}
+
 // Themes
 body.blue a:link,
 body.navy a:link,
