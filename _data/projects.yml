@@ -1,3 +1,12 @@
+- title: VA Digital Form Builder
+  slug: form-builder
+  description: Utilized the VA's Drupal CMS in a novel way to allow non-technical users to create digital form configurations that could be rendered by a custom React application on VA.gov. I developed much of the content model and normalized Drupal's GraphQL output into a static JSON file that would be interpreted by a new front-end Form Renderer application.
+  github: https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/applications/simple-forms-form-engine
+  url: https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/form-engine
+  urlName: va.gov-team/teams/form-engine
+  screenshot:
+    src: form-builder.png
+    alt: The home page of the VA CMS Form Builder tool
 - title: War of the Games
   slug: war-of-the-games
   description: Video game recommendation engine built using Node, Express, MongoDB, and the IGDB API. I created most of the API endpoints and implemented a back-end testing suite with over 80% code coverage.
@@ -16,15 +25,6 @@
   screenshot:
     src: dog-fetcher-iphone-xr.jpg
     alt: Dog Fetcher on an iPhone XR
-- title: Traffic's Cool
-  slug: traffics-cool
-  description: Uses spaced reptition to aid users in learning traffic signs. Built with Node, Express, MongoDB, and React.
-  github: https://github.com/publikwerker/traffics-cool
-  url: https://www.traffics.cool/
-  urlName: traffics.cool
-  screenshot:
-    src: traffics-cool.jpg
-    alt: The Traffic's Cool app on an iMac and an iPhone
 - title: My Board Game Shelf
   slug: my-board-game-shelf
   description: App developed to help board game lovers curate their collections. It is written in React with a Node.js/MongoDB back-end.
