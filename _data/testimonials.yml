@@ -1,3 +1,17 @@
+- quote: Derek was committed to our mission
+  org: Ad Hoc
+  name: Nicole Rodriguez
+  title: Staff Designer
+  slug: nicole-rodriguez
+  headshot:
+    src: nicole-rodriguez.jpg
+    alt: Nicole Rodriguez's headshot
+  content: |
+    I worked with Derek on a tool for digitizing forms for the U.S. Department of Veterans Affairs. There was a lot we needed to get right early on and at various points throughout the project, with little room for rework or error. The foundational work Derek did was impressive, and his expertise set our team up for success. Complex problem spaces present extra challenges on top of already monumental tasks, but he navigated them efficiently, with resolve and well-timed humor.
+
+    Additionally, Derek was a pleasure to collaborate with. Whether the team was engaged in technical, product, or design discussions or deliberating key decisions, he consistently brought clarity, curiosity, and decisive insights. His engagement and attention to detail helped drive our work forward, and his bias towards action kept things moving on schedule.
+
+    Derek was committed to our mission of creating accessible digital experiences for veterans. Our stakeholders and product owner were consistently impressed with the quality of his work, and so were we! Any team would be fortunate to have him.
 - quote: Derek advocates for his colleagues
   org: Thunk
   name: John Rudolph Drexler
@@ -10,6 +24,18 @@
     Derek advocates for his colleagues. I have watched him go to bat for coworkers, and be generous with them on many occasions.
 
     He clearly communicated useful questions and concerns while scoping our projects. These improved the design and architecture of these features. His ideas ranged from backend logic and query optimization, to smart ways to build frontend components, to UX design. This gave me a lot of confidence while I scoped projects, because I knew he was thinking deeply about the work, and wanted it to be as good as possible.
+- quote: I would recommend him to anyone
+  org: egghead.io
+  name: Daniel Miller
+  title: Product Engineering Manager
+  slug: daniel
+  headshot:
+    src: daniel.jpg
+    alt: Daniel's headshot
+  content: |
+    As CTO of Modern Message, I hired Derek as an Internal Technical Support Engineer. This was a unique position in that it supported our extensive and critical account representatives team in those moments when more advanced technical skills were required. Derek’s mix of technical and people skills made him a great fit for the role. His duties were diverse and often demanded deep system knowledge, the ability to quickly diagnose bugs, creative thinking to solve unique problems, and a broad set of technical skills.
+
+    Derek is loyal and a hard worker and I would recommend him to anyone.
 - quote: What sets Derek apart is his excellent communication skills
   org: Stack Overflow
   name: Lisa Lee
@@ -22,18 +48,6 @@
     Over the past two years, I had the privilege of being mentored by Derek in my transformative journey into the world of engineering. As my assigned mentor for the Techtonica software engineering program, Derek coached me through programming problems and abstract engineering concepts which were important in helping me absorb such a large quantity of information in a short period of time. He also found extra time to answer questions asked by other students.
 
     Past the conclusion of the program, Derek continued to guide me through pivotal career decisions as I navigated the path of a junior developer. What sets Derek apart is his excellent communication skills, making complex concepts accessible and creating an approachable environment for discussions. He is a wonderful person to work with and would benefit any organization hoping to foster and develop talent.
-- quote: I would recommend him to anyone
-  org: egghead.io
-  name: Daniel Miller
-  title: Product Engineering Manager
-  slug: daniel
-  headshot:
-    src: daniel.jpg
-    alt: Daniel's headshot
-  content: |
-    As CTO of Modern Message, I hired Derek as an Internal Technical Support Engineer. This was a unique position in that it supported our extensive and critical account representatives team in those moments when more advanced technical skills were required. Derek’s mix of technical and people skills made him a great fit for the role. His duties were diverse and often demanded deep system knowledge, the ability to quickly diagnose bugs, creative thinking to solve unique problems, and a broad set of technical skills. 
-    
-    Derek is loyal and a hard worker and I would recommend him to anyone. 
 - quote: Thanks to his efforts, our customers are now experiencing significantly faster loading times, which makes for a much smoother user experience.
   org: Binti
   name: Michael Paitoo
@@ -85,8 +99,8 @@
     src: jason.jpg
     alt: Jason's headshot
   content: |
-    If you're looking for a dependable, hard working, extremely talented, and a wonderfully witty person to boot, look no further than Derek. 
+    If you're looking for a dependable, hard working, extremely talented, and a wonderfully witty person to boot, look no further than Derek.
 
-    I've had the great privilege of working with Derek for almost 3 years at Goldman Marketing Group and if there's one thing I know about him, it's that he's a real winner. Derek faces the toughest problems with great tenacity and will not stop working until there is a solution. His focus on any task he is given is second to none, and is eager to drive results up and up. He also has a great analytical mind that ensures no stone is left unturned to be able to explain any sort of trends in his reporting. 
+    I've had the great privilege of working with Derek for almost 3 years at Goldman Marketing Group and if there's one thing I know about him, it's that he's a real winner. Derek faces the toughest problems with great tenacity and will not stop working until there is a solution. His focus on any task he is given is second to none, and is eager to drive results up and up. He also has a great analytical mind that ensures no stone is left unturned to be able to explain any sort of trends in his reporting.
 
-    Derek also has a great mindset for learning/working with any coding languages or working with API's. He has an established record of project managing our programming team, directly working on complex websites, creating client dashboards, and many other complex systems/solutions. 
+    Derek also has a great mindset for learning/working with any coding languages or working with API's. He has an established record of project managing our programming team, directly working on complex websites, creating client dashboards, and many other complex systems/solutions.
